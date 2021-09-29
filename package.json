@@ -1,0 +1,32 @@
+{
+  "name": "vite-plugin-vue-docgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lampewebdev/vite-plugin-vue-docgen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lampewebdev/vite-plugin-vue-docgen/issues"
+  },
+  "homepage": "https://github.com/lampewebdev/vite-plugin-vue-docgen#readme",
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "vite": "^2.5.10",
+    "vue-docgen-api": "^4.41.2"
+  }
+}
